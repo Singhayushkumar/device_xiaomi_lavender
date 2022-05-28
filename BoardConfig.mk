@@ -74,9 +74,6 @@ DEVICE_SPECIFIC_AUDIO_PATH := $(DEVICE_PATH)/qcom-caf/audio
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
-# Camera
-USE_DEVICE_SPECIFIC_CAMERA := true
-
 # Compile libhwui in performance mode
 HWUI_COMPILE_FOR_PERF := true
 
