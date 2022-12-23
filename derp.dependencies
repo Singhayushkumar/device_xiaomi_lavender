@@ -8,11 +8,5 @@
     "repository": "crdroidandroid/android_vendor_xiaomi_lavender",
     "target_path": "vendor/xiaomi/lavender",
     "branch": "12.1"
-  },
-  {
-    "remote": "github",
-    "repository": "ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt",
-    "target_path": "packages/apps/GCamGOPrebuilt",
-    "branch": "arrow-13.0"
   }
 ]

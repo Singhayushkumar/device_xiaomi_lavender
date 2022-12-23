@@ -76,9 +76,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 TARGET_USES_QTI_CAMERA_DEVICE := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 
-PRODUCT_PACKAGES += \
-    GCamGOPrebuilt-V3
-
 # Compile libhwui in performance mode
 HWUI_COMPILE_FOR_PERF := true
 
