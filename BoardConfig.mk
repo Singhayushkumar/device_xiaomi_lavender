@@ -87,9 +87,6 @@ TARGET_USES_ION := true
 USE_DEVICE_SPECIFIC_DISPLAY := true
 DEVICE_SPECIFIC_DISPLAY_PATH := $(DEVICE_PATH)/qcom-caf/display
 
-# DRM
-TARGET_ENABLE_MEDIADRM_64 := true
-
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
