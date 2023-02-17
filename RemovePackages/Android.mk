@@ -8,6 +8,8 @@ LOCAL_OVERRIDES_PACKAGES := \
 	CalendarGooglePrebuilt \
 	Camera2 \
 	Camera2Stub \
+        Drive \
+        Maps \
 	OBDM_Permissions \
 	SafetyHubPrebuilt \
 	SprintDM \
