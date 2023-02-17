@@ -143,7 +143,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     android.hardware.camera.provider@2.5:64 \
     libdng_sdk.vendor \
-    Aperture
 
 # Camera  Shims
 PRODUCT_PACKAGES += \
