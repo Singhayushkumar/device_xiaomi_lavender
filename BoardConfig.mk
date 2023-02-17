@@ -55,9 +55,8 @@ TARGET_KERNEL_CONFIG := lavender_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_KERNEL_LLVM_BINUTILS := false
-BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_ADDITIONAL_FLAGS := \
-    HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
+TARGET_KERNEL_CLANG_VERSION := azure
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-azure
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm660
