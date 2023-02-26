@@ -13,6 +13,7 @@ dalvik.vm.image-dex2oat-filter=quicken
 
 # Graphics
 debug.sf.enable_hwc_vds=0
+dev.pm.dyn_samplingrate=1
 
 # Dex
 dalvik.vm.dex2oat64.enabled=true
