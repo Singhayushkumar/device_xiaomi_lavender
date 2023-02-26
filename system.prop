@@ -12,6 +12,7 @@ dalvik.vm.dex2oat-filter=quicken
 dalvik.vm.image-dex2oat-filter=quicken
 
 # Graphics
+debug.sf.disable_hwc_overlays=1
 debug.sf.enable_hwc_vds=0
 dev.pm.dyn_samplingrate=1
 
