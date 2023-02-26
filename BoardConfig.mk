@@ -57,6 +57,8 @@ TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_KERNEL_LLVM_BINUTILS := false
 TARGET_KERNEL_CLANG_VERSION := azure
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-azure
+TARGET_KERNEL_BUILD_USER := weeb
+TARGET_KERNEL_BUILD_HOST := Mizushudesuyo
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm660
