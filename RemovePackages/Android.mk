@@ -16,7 +16,8 @@ LOCAL_OVERRIDES_PACKAGES := \
 	SprintHM \
 	USCCDM \
 	VZWAPNLib \
-	VzwOmaTriger
+	VzwOmaTriger \
+        YouTube
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
