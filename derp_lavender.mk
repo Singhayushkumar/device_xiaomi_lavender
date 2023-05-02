@@ -17,6 +17,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # DerpFest-ify
 DERP_BUILDTYPE := Official
 USE_LEGACY_BOOTANIMATION := true
+TARGET_NOT_USES_BLUR := true
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
