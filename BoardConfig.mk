@@ -77,6 +77,9 @@ DEVICE_SPECIFIC_AUDIO_PATH := $(DEVICE_PATH)/qcom-caf/audio
 # Compile libhwui in performance mode
 HWUI_COMPILE_FOR_PERF := true
 
+# Camera
+MALLOC_SVELTE := true
+
 # Display
 TARGET_SCREEN_DENSITY := 420
 TARGET_USES_GRALLOC1 := true
