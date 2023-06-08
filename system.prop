@@ -43,4 +43,3 @@ persist.dirac.acs.storeSettings=1
 
 #Display 
 renderthread.skia.reduceopstasksplitting=true
-ro.hwui.render_ahead=20
